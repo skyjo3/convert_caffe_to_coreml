@@ -19,7 +19,7 @@ coreml_model = ct.converters.caffe.convert(
     image_input_names='data'
 )
 
-output_path = os.path.join(output_dir, 'FlowerClassifier.mlmodel')
+output_path = os.path.join(output_dir, 'example_FlowerClassifier.mlmodel')
 coreml_model.save(output_path)
 
 print(f"Model saved to {output_path}")
