@@ -1,6 +1,6 @@
 # convert_caffe_to_coreml
 
-This is a simple Python that converts a pre-trained Caffe model into a CoreML model.
+This is a simple Python script that converts a pre-trained Caffe model into a CoreML model.
 
 There should be input files of:
 1. A Caffe Model (e.g., example_oxford102.caffemodel)
